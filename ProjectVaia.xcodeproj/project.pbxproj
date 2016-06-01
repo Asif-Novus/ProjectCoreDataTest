@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4BB7E31C7AEB67000477AE /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB7E11C7AEB67000477AE /* SignUpViewController.m */; };
+		7D4BB7E41C7AEB67000477AE /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB7E21C7AEB67000477AE /* SignUpViewController.xib */; };
+		7D4BB7E91C7AEDBE000477AE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB7E61C7AEDBE000477AE /* HomeViewController.xib */; };
+		7D4BB7EA1C7AEDBE000477AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB7E81C7AEDBE000477AE /* ViewController.m */; };
+		7D4BB7EF1C7AEE6F000477AE /* ListOfBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB7ED1C7AEE6F000477AE /* ListOfBooksViewController.m */; };
+		7D4BB7F01C7AEE6F000477AE /* ListOfBooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB7EE1C7AEE6F000477AE /* ListOfBooksViewController.xib */; };
+		7D4BB7F51C7AEEBA000477AE /* AddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB7F31C7AEEBA000477AE /* AddBookViewController.m */; };
+		7D4BB7F61C7AEEBA000477AE /* AddBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB7F41C7AEEBA000477AE /* AddBookViewController.xib */; };
+		7D4BB7FB1C7AEEFC000477AE /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB7F91C7AEEFC000477AE /* EmailViewController.m */; };
+		7D4BB7FC1C7AEEFC000477AE /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB7FA1C7AEEFC000477AE /* EmailViewController.xib */; };
+		7D4BB80C1C7B11FE000477AE /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB80A1C7B11FE000477AE /* UserListViewController.m */; };
+		7D4BB80D1C7B11FE000477AE /* UserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BB80B1C7B11FE000477AE /* UserListViewController.xib */; };
+		7D4BB8191C7B14FD000477AE /* Books.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB8151C7B14FD000477AE /* Books.m */; };
+		7D4BB81A1C7B14FD000477AE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BB8181C7B14FD000477AE /* User.m */; };
+		7DC4B4581C75CA3900DC75F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B4571C75CA3900DC75F0 /* main.m */; };
+		7DC4B45B1C75CA3900DC75F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B45A1C75CA3900DC75F0 /* AppDelegate.m */; };
+		7DC4B4611C75CA3900DC75F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4B45F1C75CA3900DC75F0 /* Main.storyboard */; };
+		7DC4B4641C75CA3900DC75F0 /* ProjectVaia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B4621C75CA3900DC75F0 /* ProjectVaia.xcdatamodeld */; };
+		7DC4B4661C75CA3900DC75F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4B4651C75CA3900DC75F0 /* Assets.xcassets */; };
+		7DC4B4691C75CA3900DC75F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4B4671C75CA3900DC75F0 /* LaunchScreen.storyboard */; };
+		7DC4B4741C75CA3900DC75F0 /* ProjectVaiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B4731C75CA3900DC75F0 /* ProjectVaiaTests.m */; };
+		7DC4B47F1C75CA3900DC75F0 /* ProjectVaiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4B47E1C75CA3900DC75F0 /* ProjectVaiaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DC4B4701C75CA3900DC75F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DC4B44B1C75CA3900DC75F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC4B4521C75CA3900DC75F0;
+			remoteInfo = ProjectVaia;
+		};
+		7DC4B47B1C75CA3900DC75F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DC4B44B1C75CA3900DC75F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DC4B4521C75CA3900DC75F0;
+			remoteInfo = ProjectVaia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D4BB7E01C7AEB67000477AE /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		7D4BB7E11C7AEB67000477AE /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		7D4BB7E21C7AEB67000477AE /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		7D4BB7E61C7AEDBE000477AE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		7D4BB7E71C7AEDBE000477AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D4BB7E81C7AEDBE000477AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D4BB7EC1C7AEE6F000477AE /* ListOfBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfBooksViewController.h; sourceTree = "<group>"; };
+		7D4BB7ED1C7AEE6F000477AE /* ListOfBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfBooksViewController.m; sourceTree = "<group>"; };
+		7D4BB7EE1C7AEE6F000477AE /* ListOfBooksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListOfBooksViewController.xib; sourceTree = "<group>"; };
+		7D4BB7F21C7AEEBA000477AE /* AddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookViewController.h; sourceTree = "<group>"; };
+		7D4BB7F31C7AEEBA000477AE /* AddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookViewController.m; sourceTree = "<group>"; };
+		7D4BB7F41C7AEEBA000477AE /* AddBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBookViewController.xib; sourceTree = "<group>"; };
+		7D4BB7F81C7AEEFC000477AE /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		7D4BB7F91C7AEEFC000477AE /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		7D4BB7FA1C7AEEFC000477AE /* EmailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		7D4BB8091C7B11FE000477AE /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
+		7D4BB80A1C7B11FE000477AE /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
+		7D4BB80B1C7B11FE000477AE /* UserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserListViewController.xib; sourceTree = "<group>"; };
+		7D4BB8131C7B14FD000477AE /* Books+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Books+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7D4BB8141C7B14FD000477AE /* Books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Books.h; sourceTree = "<group>"; };
+		7D4BB8151C7B14FD000477AE /* Books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Books.m; sourceTree = "<group>"; };
+		7D4BB8161C7B14FD000477AE /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7D4BB8171C7B14FD000477AE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7D4BB8181C7B14FD000477AE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7DC4B4531C75CA3900DC75F0 /* ProjectVaia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectVaia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC4B4571C75CA3900DC75F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DC4B4591C75CA3900DC75F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../ProjectVaia/AppDelegate.h; sourceTree = "<group>"; };
+		7DC4B45A1C75CA3900DC75F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../ProjectVaia/AppDelegate.m; sourceTree = "<group>"; };
+		7DC4B4601C75CA3900DC75F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DC4B4631C75CA3900DC75F0 /* ProjectVaia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectVaia.xcdatamodel; sourceTree = "<group>"; };
+		7DC4B4651C75CA3900DC75F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DC4B4681C75CA3900DC75F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DC4B46A1C75CA3900DC75F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC4B46F1C75CA3900DC75F0 /* ProjectVaiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectVaiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC4B4731C75CA3900DC75F0 /* ProjectVaiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectVaiaTests.m; sourceTree = "<group>"; };
+		7DC4B4751C75CA3900DC75F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC4B47A1C75CA3900DC75F0 /* ProjectVaiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectVaiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC4B47E1C75CA3900DC75F0 /* ProjectVaiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectVaiaUITests.m; sourceTree = "<group>"; };
+		7DC4B4801C75CA3900DC75F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DC4B4501C75CA3900DC75F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B46C1C75CA3900DC75F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B4771C75CA3900DC75F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4BB7DF1C7AEB67000477AE /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB7E01C7AEB67000477AE /* SignUpViewController.h */,
+				7D4BB7E11C7AEB67000477AE /* SignUpViewController.m */,
+				7D4BB7E21C7AEB67000477AE /* SignUpViewController.xib */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		7D4BB7E51C7AEDBE000477AE /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB7E71C7AEDBE000477AE /* ViewController.h */,
+				7D4BB7E81C7AEDBE000477AE /* ViewController.m */,
+				7D4BB7E61C7AEDBE000477AE /* HomeViewController.xib */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		7D4BB7EB1C7AEE6F000477AE /* ListOfBook */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB7EC1C7AEE6F000477AE /* ListOfBooksViewController.h */,
+				7D4BB7ED1C7AEE6F000477AE /* ListOfBooksViewController.m */,
+				7D4BB7EE1C7AEE6F000477AE /* ListOfBooksViewController.xib */,
+			);
+			path = ListOfBook;
+			sourceTree = "<group>";
+		};
+		7D4BB7F11C7AEEBA000477AE /* AdditionOfBook */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB7F21C7AEEBA000477AE /* AddBookViewController.h */,
+				7D4BB7F31C7AEEBA000477AE /* AddBookViewController.m */,
+				7D4BB7F41C7AEEBA000477AE /* AddBookViewController.xib */,
+			);
+			path = AdditionOfBook;
+			sourceTree = "<group>";
+		};
+		7D4BB7F71C7AEEFC000477AE /* Email Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB7F81C7AEEFC000477AE /* EmailViewController.h */,
+				7D4BB7F91C7AEEFC000477AE /* EmailViewController.m */,
+				7D4BB7FA1C7AEEFC000477AE /* EmailViewController.xib */,
+			);
+			name = "Email Controller";
+			path = "AdditionOfBook/Email Controller";
+			sourceTree = "<group>";
+		};
+		7D4BB8031C7B1171000477AE /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB8091C7B11FE000477AE /* UserListViewController.h */,
+				7D4BB80A1C7B11FE000477AE /* UserListViewController.m */,
+				7D4BB80B1C7B11FE000477AE /* UserListViewController.xib */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		7D4BB8121C7B14FD000477AE /* Managed Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB8131C7B14FD000477AE /* Books+CoreDataProperties.h */,
+				7D4BB8141C7B14FD000477AE /* Books.h */,
+				7D4BB8151C7B14FD000477AE /* Books.m */,
+				7D4BB8161C7B14FD000477AE /* User+CoreDataProperties.h */,
+				7D4BB8171C7B14FD000477AE /* User.h */,
+				7D4BB8181C7B14FD000477AE /* User.m */,
+			);
+			path = "Managed Classes";
+			sourceTree = "<group>";
+		};
+		7DC4B44A1C75CA3900DC75F0 = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4551C75CA3900DC75F0 /* ProjectVaia */,
+				7DC4B4721C75CA3900DC75F0 /* ProjectVaiaTests */,
+				7DC4B47D1C75CA3900DC75F0 /* ProjectVaiaUITests */,
+				7DC4B4541C75CA3900DC75F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC4B4541C75CA3900DC75F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4531C75CA3900DC75F0 /* ProjectVaia.app */,
+				7DC4B46F1C75CA3900DC75F0 /* ProjectVaiaTests.xctest */,
+				7DC4B47A1C75CA3900DC75F0 /* ProjectVaiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DC4B4551C75CA3900DC75F0 /* ProjectVaia */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B48C1C75CAA500DC75F0 /* Model */,
+				7DC4B48D1C75CAAF00DC75F0 /* Controller */,
+				7DC4B46A1C75CA3900DC75F0 /* Info.plist */,
+				7DC4B4561C75CA3900DC75F0 /* Supporting Files */,
+			);
+			path = ProjectVaia;
+			sourceTree = "<group>";
+		};
+		7DC4B4561C75CA3900DC75F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4571C75CA3900DC75F0 /* main.m */,
+				7DC4B4671C75CA3900DC75F0 /* LaunchScreen.storyboard */,
+				7DC4B4651C75CA3900DC75F0 /* Assets.xcassets */,
+				7DC4B45F1C75CA3900DC75F0 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DC4B4721C75CA3900DC75F0 /* ProjectVaiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4731C75CA3900DC75F0 /* ProjectVaiaTests.m */,
+				7DC4B4751C75CA3900DC75F0 /* Info.plist */,
+			);
+			path = ProjectVaiaTests;
+			sourceTree = "<group>";
+		};
+		7DC4B47D1C75CA3900DC75F0 /* ProjectVaiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B47E1C75CA3900DC75F0 /* ProjectVaiaUITests.m */,
+				7DC4B4801C75CA3900DC75F0 /* Info.plist */,
+			);
+			path = ProjectVaiaUITests;
+			sourceTree = "<group>";
+		};
+		7DC4B48C1C75CAA500DC75F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4621C75CA3900DC75F0 /* ProjectVaia.xcdatamodeld */,
+				7D4BB8121C7B14FD000477AE /* Managed Classes */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		7DC4B48D1C75CAAF00DC75F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4B4591C75CA3900DC75F0 /* AppDelegate.h */,
+				7DC4B45A1C75CA3900DC75F0 /* AppDelegate.m */,
+				7D4BB7DF1C7AEB67000477AE /* Sign Up */,
+				7D4BB7E51C7AEDBE000477AE /* Log In */,
+				7D4BB7EB1C7AEE6F000477AE /* ListOfBook */,
+				7D4BB7F11C7AEEBA000477AE /* AdditionOfBook */,
+				7D4BB7F71C7AEEFC000477AE /* Email Controller */,
+				7D4BB8031C7B1171000477AE /* UserList */,
+			);
+			name = Controller;
+			path = ../Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DC4B4521C75CA3900DC75F0 /* ProjectVaia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC4B4831C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaia" */;
+			buildPhases = (
+				7DC4B44F1C75CA3900DC75F0 /* Sources */,
+				7DC4B4501C75CA3900DC75F0 /* Frameworks */,
+				7DC4B4511C75CA3900DC75F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectVaia;
+			productName = ProjectVaia;
+			productReference = 7DC4B4531C75CA3900DC75F0 /* ProjectVaia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DC4B46E1C75CA3900DC75F0 /* ProjectVaiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC4B4861C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaiaTests" */;
+			buildPhases = (
+				7DC4B46B1C75CA3900DC75F0 /* Sources */,
+				7DC4B46C1C75CA3900DC75F0 /* Frameworks */,
+				7DC4B46D1C75CA3900DC75F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC4B4711C75CA3900DC75F0 /* PBXTargetDependency */,
+			);
+			name = ProjectVaiaTests;
+			productName = ProjectVaiaTests;
+			productReference = 7DC4B46F1C75CA3900DC75F0 /* ProjectVaiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DC4B4791C75CA3900DC75F0 /* ProjectVaiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC4B4891C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaiaUITests" */;
+			buildPhases = (
+				7DC4B4761C75CA3900DC75F0 /* Sources */,
+				7DC4B4771C75CA3900DC75F0 /* Frameworks */,
+				7DC4B4781C75CA3900DC75F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DC4B47C1C75CA3900DC75F0 /* PBXTargetDependency */,
+			);
+			name = ProjectVaiaUITests;
+			productName = ProjectVaiaUITests;
+			productReference = 7DC4B47A1C75CA3900DC75F0 /* ProjectVaiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DC4B44B1C75CA3900DC75F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Jamil;
+				TargetAttributes = {
+					7DC4B4521C75CA3900DC75F0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7DC4B46E1C75CA3900DC75F0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7DC4B4521C75CA3900DC75F0;
+					};
+					7DC4B4791C75CA3900DC75F0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7DC4B4521C75CA3900DC75F0;
+					};
+				};
+			};
+			buildConfigurationList = 7DC4B44E1C75CA3900DC75F0 /* Build configuration list for PBXProject "ProjectVaia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DC4B44A1C75CA3900DC75F0;
+			productRefGroup = 7DC4B4541C75CA3900DC75F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DC4B4521C75CA3900DC75F0 /* ProjectVaia */,
+				7DC4B46E1C75CA3900DC75F0 /* ProjectVaiaTests */,
+				7DC4B4791C75CA3900DC75F0 /* ProjectVaiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DC4B4511C75CA3900DC75F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC4B4691C75CA3900DC75F0 /* LaunchScreen.storyboard in Resources */,
+				7DC4B4661C75CA3900DC75F0 /* Assets.xcassets in Resources */,
+				7DC4B4611C75CA3900DC75F0 /* Main.storyboard in Resources */,
+				7D4BB7F01C7AEE6F000477AE /* ListOfBooksViewController.xib in Resources */,
+				7D4BB80D1C7B11FE000477AE /* UserListViewController.xib in Resources */,
+				7D4BB7E41C7AEB67000477AE /* SignUpViewController.xib in Resources */,
+				7D4BB7FC1C7AEEFC000477AE /* EmailViewController.xib in Resources */,
+				7D4BB7F61C7AEEBA000477AE /* AddBookViewController.xib in Resources */,
+				7D4BB7E91C7AEDBE000477AE /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B46D1C75CA3900DC75F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B4781C75CA3900DC75F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DC4B44F1C75CA3900DC75F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4BB81A1C7B14FD000477AE /* User.m in Sources */,
+				7D4BB8191C7B14FD000477AE /* Books.m in Sources */,
+				7DC4B4641C75CA3900DC75F0 /* ProjectVaia.xcdatamodeld in Sources */,
+				7D4BB80C1C7B11FE000477AE /* UserListViewController.m in Sources */,
+				7DC4B45B1C75CA3900DC75F0 /* AppDelegate.m in Sources */,
+				7D4BB7F51C7AEEBA000477AE /* AddBookViewController.m in Sources */,
+				7D4BB7EA1C7AEDBE000477AE /* ViewController.m in Sources */,
+				7D4BB7FB1C7AEEFC000477AE /* EmailViewController.m in Sources */,
+				7D4BB7EF1C7AEE6F000477AE /* ListOfBooksViewController.m in Sources */,
+				7DC4B4581C75CA3900DC75F0 /* main.m in Sources */,
+				7D4BB7E31C7AEB67000477AE /* SignUpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B46B1C75CA3900DC75F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC4B4741C75CA3900DC75F0 /* ProjectVaiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4B4761C75CA3900DC75F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC4B47F1C75CA3900DC75F0 /* ProjectVaiaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DC4B4711C75CA3900DC75F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DC4B4521C75CA3900DC75F0 /* ProjectVaia */;
+			targetProxy = 7DC4B4701C75CA3900DC75F0 /* PBXContainerItemProxy */;
+		};
+		7DC4B47C1C75CA3900DC75F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DC4B4521C75CA3900DC75F0 /* ProjectVaia */;
+			targetProxy = 7DC4B47B1C75CA3900DC75F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DC4B45F1C75CA3900DC75F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC4B4601C75CA3900DC75F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DC4B4671C75CA3900DC75F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DC4B4681C75CA3900DC75F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DC4B4811C75CA3900DC75F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DC4B4821C75CA3900DC75F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DC4B4841C75CA3900DC75F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectVaia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DC4B4851C75CA3900DC75F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectVaia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DC4B4871C75CA3900DC75F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectVaiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectVaia.app/ProjectVaia";
+			};
+			name = Debug;
+		};
+		7DC4B4881C75CA3900DC75F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProjectVaiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectVaia.app/ProjectVaia";
+			};
+			name = Release;
+		};
+		7DC4B48A1C75CA3900DC75F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectVaiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectVaia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7DC4B48B1C75CA3900DC75F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProjectVaiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novus.ProjectVaiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProjectVaia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DC4B44E1C75CA3900DC75F0 /* Build configuration list for PBXProject "ProjectVaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC4B4811C75CA3900DC75F0 /* Debug */,
+				7DC4B4821C75CA3900DC75F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC4B4831C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC4B4841C75CA3900DC75F0 /* Debug */,
+				7DC4B4851C75CA3900DC75F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC4B4861C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC4B4871C75CA3900DC75F0 /* Debug */,
+				7DC4B4881C75CA3900DC75F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC4B4891C75CA3900DC75F0 /* Build configuration list for PBXNativeTarget "ProjectVaiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC4B48A1C75CA3900DC75F0 /* Debug */,
+				7DC4B48B1C75CA3900DC75F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DC4B4621C75CA3900DC75F0 /* ProjectVaia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DC4B4631C75CA3900DC75F0 /* ProjectVaia.xcdatamodel */,
+			);
+			currentVersion = 7DC4B4631C75CA3900DC75F0 /* ProjectVaia.xcdatamodel */;
+			name = ProjectVaia.xcdatamodeld;
+			path = ../ProjectVaia/ProjectVaia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7DC4B44B1C75CA3900DC75F0 /* Project object */;
+}
